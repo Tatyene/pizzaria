@@ -2,6 +2,11 @@ mat-toolbar {
     background-color: #228B22;
 }
 
+.example-button-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
 .example-spacer {
     flex: 1 1 auto;
   }
