@@ -1,20 +1,20 @@
 <mat-toolbar class="example-button-row">
-    <button mat-button class="example-icon" aria-label="Logo">
+    <button mat-button class="example-icon" aria-label="Logo" (click)="onHome()">
         LOGO
     </button>
     <button mat-button class="example-icon" aria-label="Cardapio">
         CARDÁPIO
     </button>
-    <button mat-button class="example-icon" aria-label="Promocao">
+    <button mat-button class="example-icon" aria-label="Promocao" (click)="onPromo()">
         PROMOÇÕES
     </button>
-    <button mat-button class="example-icon" aria-label="Localizacao">
+    <button mat-button class="example-icon" aria-label="Localizacao" (click)="onLocal()">
         LOCALIZAÇÃO
     </button>
-    <button mat-button class="example-icon" aria-label="Como pedir">
+    <button mat-button class="example-icon" aria-label="Como pedir" (click)="onPedir()">
         COMO PEDIR
     </button>
-    <button mat-button class="example-icon" aria-label="Sobre">
+    <button mat-button class="example-icon" aria-label="Sobre" (click)="onSobre()">
         SOBRE
     </button>
 </mat-toolbar>

@@ -1,0 +1,8 @@
+.container {
+    margin: 8px;
+}
+.image1 {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}

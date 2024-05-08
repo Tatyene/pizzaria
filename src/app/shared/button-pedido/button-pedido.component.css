@@ -1,0 +1,11 @@
+.button-action{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 441px;
+    height: 78px;
+    background-color: #FF6347;
+    font-size: 42px;
+}

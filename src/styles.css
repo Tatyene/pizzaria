@@ -5,3 +5,17 @@ html, body {
     background-color: #F3F3F3; 
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1 {
+    color: #FF6347;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin: 34px;
+}
+.text {
+    text-align: center;
+    color: #534C4C;
+    font-size: 20px;
+    padding: 24px;
+}

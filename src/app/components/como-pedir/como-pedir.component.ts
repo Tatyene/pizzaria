@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { ButtonPedidoComponent } from '../../shared/button-pedido/button-pedido.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-como-pedir',
   standalone: true,
   imports: [ButtonPedidoComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './como-pedir.component.html',
+  styleUrl: './como-pedir.component.css'
 })
-export class HomeComponent {
+export class ComoPedirComponent {
 
 }
